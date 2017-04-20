@@ -3,6 +3,8 @@
 # in all other pixels
 import imageio
 import numpy as np
+import sys
+sys.path.append('../libs')
 import morse
 
 raw_msg = "HELLO AGENT ELIZABETH BURL. YOUR BOYFRIEND THINKS YOU ARE PRETTY CUTE"
